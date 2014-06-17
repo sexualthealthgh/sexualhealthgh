@@ -69,6 +69,11 @@ var scrolltotop={
 			$(window).bind('scroll resize', function(e){
 				mainobj.togglecontrol()
 			})
+
+			$("more").click(function(){
+				$("#info").slideUp()
+				console.log("im here");
+			});
 		})
 	}
 }

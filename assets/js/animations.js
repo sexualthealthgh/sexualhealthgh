@@ -25,6 +25,11 @@ $(document).ready(function() {
          $('#why .btn').css('opacity', 0).one('inview', function(isInView) {
             if (isInView) {$(this).addClass('animated fadeInUp delayp6');}
         });
+
+        $("#more").click(function(){
+            $(".press").slideUp("slow",function(){
+            });
+        });
         
         
         /* Animate elements in #video (homepage) */
