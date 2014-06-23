@@ -423,7 +423,7 @@ blockquote {
   color: #b3b3b3;
   font-size: 14px;
   padding: 10px 0;
-  margin-top: 30px;
+  margin-top: 1px;
 }
 .footer .bottom-bar .copyright {
   line-height: 1.6;
@@ -548,9 +548,18 @@ blockquote {
   background-size: cover;
   min-height: 620px;
 }
+.img {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
 .promo .intro {
   color: #fff;
   padding-top: 30px;
+  /*padding-left: 530px;*/
 }
 .promo .intro .title {
   color: #fff;
@@ -575,7 +584,7 @@ blockquote {
 .promo .signup {
   background: rgba(0, 0, 0, 0.2);
   padding: 30px 0;
-  padding-bottom: 45px;
+  padding-bottom: 15px;
   color: #fff;
 }
 .promo .signup .title {
@@ -649,7 +658,7 @@ blockquote {
 }
 /* ======= Why Section ======= */
 .why {
-  padding: 80px 0;
+  padding: 30px 0;
 }
 .why .title {
   font-weight: bold;
@@ -966,7 +975,7 @@ blockquote {
 }
 /* ======= Price Plan Section ======= */
 .price-plan {
-  padding: 80px 0;
+  padding: 10px;
 }
 .price-plan .title {
   font-size: 28px;
@@ -1014,11 +1023,11 @@ blockquote {
   background-clip: padding-box;
   background: #6dbd63;
   color: #fff;
-  font-size: 12px;
+  font-size: 20px;
   position: absolute;
-  padding: 5px 10px;
+  padding: 20px 20px;
   right: 15px;
-  top: 10px;
+  top: 38px;
 }
 .price-plan .item .content {
   background: #f5f5f5;
@@ -1039,7 +1048,7 @@ blockquote {
   text-transform: uppercase;
 }
 .price-plan .item .feature-list li {
-  padding: 10px 0;
+  padding: 10px;
 }
 .price-plan .item .btn {
   font-weight: bold;
@@ -1631,9 +1640,10 @@ blockquote {
     max-width: 160px;
   }
   .price-plan .item .heading .label {
-    padding: 5px 10px;
-    right: 5px;
-    font-size: 10px;
+    padding: 5px 5px 5px 5px;
+    right: 0px; 
+    top :50px;
+    font-size: 20px;
   }
   .contact-main .item {
     margin-bottom: 30px;
@@ -1651,7 +1661,7 @@ blockquote {
   }
   .wrapper {
     min-height: 100%;
-    margin-bottom: -296px;
+    margin-bottom: -350px;
     /* equal to footer height */
   }
   .wrapper:after {
@@ -1661,7 +1671,7 @@ blockquote {
     /* must be the same height as footer */
   }
   .footer {
-    height: 296px;
+    height: 150px;
     /* must be the same height as footer */
   }
 }
