@@ -562,7 +562,7 @@ blockquote {
   /*padding-left: 530px;*/
 }
 .promo .intro .title {
-  color: #fff;
+  color: #6dbd63;
   font-size: 38px;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
   max-width: 720px;
@@ -570,7 +570,7 @@ blockquote {
   margin-bottom: 15px;
 }
 .promo .intro .summary {
-  color: #fff;
+  color: #6dbd63;
   font-size: 22px;
   max-width: 680px;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
@@ -1661,7 +1661,7 @@ blockquote {
   }
   .wrapper {
     min-height: 100%;
-    margin-bottom: -350px;
+    margin-bottom: -184px;
     /* equal to footer height */
   }
   .wrapper:after {
