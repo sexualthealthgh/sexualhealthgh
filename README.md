@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README #
 
 This README would normally document whatever steps are necessary to get your application up and running.
@@ -27,3 +28,9 @@ This README would normally document whatever steps are necessary to get your app
 
 * Repo owner or admin
 * Other community or team contact
+=======
+sexualhealthgh
+==============
+
+A web and mobile platform for educating young Ghanaians about thier sexual health. It also provides a forum for questions (youth) and answers by real doctors.
+>>>>>>> a6aed289b2342b785396fca85da37d1171d89667

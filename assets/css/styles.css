@@ -122,26 +122,14 @@ blockquote {
 .text-highlight {
   color: #2e5f28;
 }
-#topcontrol {
-  background: #8fcc87;
-  color: #fff;
+.stats {
+  background-color: red;
   text-align: center;
-  display: inline-block;
-  width: 35px;
-  height: 35px;
+  width: 220px;
+  height: 220px;
+  margin-top: 80px;
+  margin-bottom: 80px;
   border: none;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  -ms-border-radius: 2px;
-  -o-border-radius: 2px;
-  border-radius: 2px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
 }
 #topcontrol:hover {
   background: #6dbd63;
