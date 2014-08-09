@@ -32,7 +32,12 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+    <!-- Script for animating number of deaths for cervical cancer, abortion and other STI's -->
+    
+     <!--reference the jQuery library-->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!--reference separate .js file to write jQuery code -->
+    <script type="text/javascript" src="assets/js/stats.js"></script>
 
     <!-- Go to www.addthis.com/dashboard to customize your tools -->
     <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53e5009d1d611240"></script>
@@ -54,39 +59,39 @@
 
             <div class="cancer col-xs-12 col-sm-12">
                 <div class="col-sm-3 col-sm-offset-1 stats1">
-                    <div class="number">
-                        1200
+                    <div id="number1">
+                        0
                     </div>
                     <div>
                     </div>
                         <a class=" death">deaths from</a>
                     <div class=" disease ">
-                        <a >Cervical Cancer</a>
+                        <a>Cervical Cancer</a>
                     </div>                    
                 </div>
 
                 <div class="col-sm-3 col-sm-offset-1 stats2">
-                    <div class="number">
+                    <div id="number2">
                         1200
                     </div>
                     <div>
-                        <a class=" death">deaths from</a>
+                        <a class="death">deaths from</a>
                     </div>
                     <div class="disease">
-                        <a >Abortions</a>
+                        <a>Abortions</a>
                     </div>
                     
                 </div>
 
                 <div class="col-sm-3 col-sm-offset-1 stats3">
-                    <div class="number">
+                    <div id="number3">
                         1200
                     </div>
                     <div>
-                        <a class=" death">deaths from</a>
+                        <a class="death">deaths from</a>
                     </div>
-                    <div class=" disease ">
-                        <a >HIV & STD's</a>
+                    <div class="disease ">
+                        <a>HIV & STD's</a>
                     </div>
 
                 </div>
@@ -110,6 +115,6 @@
 
 </div>            
 </body>
-
+          
 </html> 
 

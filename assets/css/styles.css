@@ -92,6 +92,7 @@ a.btn-cta-primary,
   border: 2px solid rgb(95, 159, 228);
   color: rgb(95, 159, 228);
   text-transform: uppercase;
+  margin-top: 10px;
 }
 a.btn-cta-primary:hover,
 .btn-cta-primary:hover {
@@ -141,7 +142,17 @@ blockquote {
 }
 
 /*Mine css*/
-.number{
+#number1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 70px;
+  color:white;
+}
+#number2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 70px;
+  color:white;
+}
+#number3{
   font-family: 'Montserrat', sans-serif;
   font-size: 70px;
   color:white;
@@ -165,8 +176,8 @@ blockquote {
   text-align: center;
   width: 310px;
   height: 220px;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 50px;
+  margin-bottom: 10px;
   border: none;
 }
 .stats2 {
@@ -174,7 +185,7 @@ blockquote {
   text-align: center;
   width: 310px;
   height: 220px;
-  margin-top: 80px;
+  margin-top: 50px;
   margin-bottom: 80px;
   border: none;
 }
@@ -183,7 +194,7 @@ blockquote {
   text-align: center;
   width: 310px;
   height: 220px;
-  margin-top: 80px;
+  margin-top: 50px;
   margin-bottom: 80px;
   border: none;
 }
