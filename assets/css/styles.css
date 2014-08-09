@@ -34,16 +34,27 @@ body {
   /* must be the same height as footer */
 }
 h1,
-h2,
 h3,
 h5,
 h6 {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  color: rgb(95, 159, 228);
+  color: #fff;
+  font-size: 65px;
+  padding-top: 2px;
 }
 h4{
   color: white;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #fff;
+  font-size: 26px;
+  padding-top: 2px;
+  margin-top: -22px;
+  padding-bottom: 1px;
+
 }
 p {
   color: #444444;
@@ -56,6 +67,7 @@ a {
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
 }
+
 a:hover {
   text-decoration: none;
   color: #428bca;
@@ -151,7 +163,7 @@ blockquote {
 .stats1 {
   background-color: rgba(48, 114, 40, 0.83);
   text-align: center;
-  width: 220px;
+  width: 310px;
   height: 220px;
   margin-top: 80px;
   margin-bottom: 80px;
@@ -160,7 +172,7 @@ blockquote {
 .stats2 {
   background-color: rgba(40, 61, 114, 0.89);
   text-align: center;
-  width: 220px;
+  width: 310px;
   height: 220px;
   margin-top: 80px;
   margin-bottom: 80px;
@@ -169,7 +181,7 @@ blockquote {
 .stats3 {
   background-color: rgba(116, 82, 12, 0.83);
   text-align: center;
-  width: 220px;
+  width: 310px;
   height: 220px;
   margin-top: 80px;
   margin-bottom: 80px;
@@ -314,7 +326,7 @@ blockquote {
 /* ======= Header ======= */
 .header {
   padding: 1px 0;
-  background: #fff;
+  background: rgb(95, 159, 228);
   z-index: 888;
   -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
@@ -333,7 +345,7 @@ blockquote {
 }
 
 .logo {
-  padding-top: 40px; 
+  padding-top: 80px; 
   color: #6dbd63;
 
 }
@@ -346,12 +358,13 @@ blockquote {
 .header h1.logo .logo-title {
   vertical-align: middle;
   line-height: 1.6;
+
 }
 .header .main-nav .navbar-toggle {
   margin-right: 0;
 }
 button {
-  background: rgba(48, 114, 40, 0.83);
+  background: rgb(95, 159, 228);
   color: #fff !important;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -373,6 +386,7 @@ button {
    white-space: -o-pre-wrap;   /* Opera 7 */    
    word-wrap: break-word;
    border-radius: 0px;
+   width:205px;
 }
 
 /* ======= Footer ======= */
