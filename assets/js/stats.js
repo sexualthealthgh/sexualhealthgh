@@ -95,9 +95,12 @@ $(document).ready(function() {
            height: '-=10px'
        }); 
    });
-   $('div').click(function() {
-       $(this).toggle(1000);
+
+   $('div.action,div.stats1,div.stats2,div.stats3,div.cancer').click(function() {
+       // /*Hide the stats*/
+       // $(this).toggle(1000);
+
+       // /*show the welcome message*/
+       $(".welcome").fadeIn(6000);
    }); 
 });
-
-/*  */

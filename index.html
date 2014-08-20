@@ -25,7 +25,7 @@
     <!-- Plugins CSS -->      
     <link rel="stylesheet" href="assets/plugins/animate-css/animate.min.css">
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <!-- Theme CSS -->  
+    <!-- Mixed CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -34,87 +34,84 @@
     <![endif]-->
     <!-- Script for animating number of deaths for cervical cancer, abortion and other STI's -->
     
-     <!--reference the jQuery library-->
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <!--reference separate .js file to write jQuery code -->
-    <script type="text/javascript" src="assets/js/stats.js"></script>
+    <script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    <!-- Go to www.addthis.com/dashboard to customize your tools -->
-    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53e5009d1d611240"></script>
+	  ga('create', 'UA-53816405-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
    
 </head> 
 
 <body class="">  
    
        
-            <div class="header col-sm-12">
+            <div class="header col-xs-12 col-sm-12">
                 <center>
-                <div class="col-sm-4 col-sm-offset-4"><h1 class="title ">SexualHealth</h1>
+                <div class="col-sm-4 col-sm-offset-4"><h1 class="title " > <a href="index.html">SexualHealth</a></h1>
                 <h2 class="title2">Know your sex life!</h2>
                 </div>
-                <div class=" logo col-sm-4 col-sm-offset-0 "><button> <span class="glyphicon glyphicon-phone-alt"> <b>  HelpLine 0244 455 555  </b></button></span>
+                <div class=" donate col-sm-4 col-sm-offset-0 "> <a  href="donate.html"> <button class="att" > <span class="glyphicon glyphicon-heart"> <b>  Donate  </b></button> </a></span>
+                </div>
+                <div class=" logo col-sm-4 col-sm-offset-0 "><button > <span class="glyphicon glyphicon-phone-alt"> <b>  HelpLine 0244 455 555  </b></button></span>
                 </div>
                 </center>
             </div><!--//intro-->
 
-            <div class="cancer col-xs-12 col-sm-12">
-                <div class="col-sm-3 col-sm-offset-1 stats1">
-                    <div id="number1">
-                        0
-                    </div>
-                    <div>
-                    </div>
-                        <a class=" death">deaths from</a>
-                    <div class=" disease ">
-                        <a>Cervical Cancer</a>
-                    </div>                    
-                </div>
-
-                <div class="col-sm-3 col-sm-offset-1 stats2">
-                    <div id="number2">
-                        1200
-                    </div>
-                    <div>
-                        <a class="death">deaths from</a>
-                    </div>
-                    <div class="disease">
-                        <a>Abortions</a>
-                    </div>
-                    
-                </div>
-
-                <div class="col-sm-3 col-sm-offset-1 stats3">
-                    <div id="number3">
-                        1200
-                    </div>
-                    <div>
-                        <a class="death">deaths from</a>
-                    </div>
-                    <div class="disease ">
-                        <a>HIV & STD's</a>
-                    </div>
-
+            <div class="welcome col-xs-offset-4 col-xs-5 "><br>Now you no longer have to be shy or afraid of asking important questions about your sexual health. Your identity is hidden, protecting you from being stigmatised, and remember, all your questions will be answered by professional Ghanaian Doctors. Stay Alive!!!
             </div>
-                    
-                
+
+            <div class="action col-xs-12 col-sm-12">
+                <div class="col-xs-12 ">  <center class="intro"><b> The number of people dying from sexually related health issues are staggering!  </center> </div>
+                <div class=" col-xs-12 col-sm-3 col-sm-offset-1 stats1">
+                    <a id="number1">0</a> <br>
+                    <a class=" death">deaths from</a> <br>
+                    <a class=" disease ">Cervical Cancer</a><br>     
+                </div>
+
+                <div class=" col-xs-12 col-sm-3 col-sm-offset-1 stats2">
+                    <a id="number2">1200</a> <br>
+                    <a class="death">deaths from</a> <br>
+                    <a class="disease"> Abortions</a> <br>
+                </div>
+
+                <div class=" col-xs-12 col-sm-3 col-sm-offset-1 stats3">
+                    <a id="number3">1200</a><br>
+                    <a class="death">deaths from</a><br>
+                    <a class="disease ">HIV & STD's</a><br>
+                </div>           
             </div><!--//intro-->
 
     
-            <div class=" action col-sm-12">
-                <a class="wordwrap btn btn-cta btn-cta-primary col-sm-2 col-sm-offset-1" id="more" href="pregnant.html#disqus_thread"><h4>I Might Be Pregnant</h4></a>
-                <a class=" wordwrap btn btn-cta btn-cta-primary col-sm-2 col-sm-offset-1" id="more" href="question.html#disqus_thread"><h4>Ask An Urgent Question</h4></a>
-                <a class=" wordwrap btn btn-cta btn-cta-primary col-sm-2 col-sm-offset-1" id="more" href="talk.html#disqus_thread"><h4>Parents! The Sex Talk.</h4></a>
-                <a class=" wordwrap btn btn-cta btn-cta-primary col-sm-2 col-sm-offset-1" id="more" href="sti.html#disqus_thread"><h4>Sexually Trans. Infec.</h4></a></a>
+            <div class=" action col-xs-12 col-sm-12">
+                <a class="wordwrap btn btn-cta btn-cta-primary col-xs-12 col-sm-2 col-sm-offset-1" id="more" href="pregnant.html#disqus_thread"><h4>I Might Be Pregnant....!</h4></a>
+                <a class=" wordwrap btn btn-cta btn-cta-primary col-xs-12 col-sm-2 col-sm-offset-1" id="more" href="question.html"><h4>Ask A Question....?</h4></a>
+                <a class=" wordwrap btn btn-cta btn-cta-primary col-xs-12 col-sm-2 col-sm-offset-1" id="more" href="talk.html#disqus_thread"><h4>Parents! The Sex Talk</h4></a>
+                <a class=" wordwrap btn btn-cta btn-cta-primary col-xs-12 col-sm-2 col-sm-offset-1" id="more" href="sti.html#disqus_thread"><h4>Sexually Trans. Infec.</h4></a></a>
                 
             </div><!--//intro-->
 
-            <div class="logo col-xs-offset-5 col-xs-3">
+            <div class="base col-xs-12">
                <button> <span class="  glyphicon glyphicon-phone-alt"> <b>  HelpLine 0244 455 555  </b></span></button>
             </div>
           
 
 </div>            
 </body>
+ <!--reference the jQuery library-->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!--reference separate .js file to write jQuery code -->
+    <script type="text/javascript" src="assets/js/stats.js"></script>
+
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53e5009d1d611240"></script>
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53e5009d1d611240"></script>
+
           
 </html> 
 

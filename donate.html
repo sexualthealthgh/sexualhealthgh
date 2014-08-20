@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <!-- Plugins CSS -->      
+    <link rel="stylesheet" href="assets/css/pay.css">
+
+        
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-53816405-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+
+  </head>
+    
+  <body>
+
+
+    <div class="container">
+
+      <div class="price-box">
+
+        <form class="form-horizontal form-pricing" role="form">
+
+          <div class="price-slider">
+            <h4 class="great">Amount</h4>
+            <span>Minimum GHS10 is required</span>
+            <div class="col-sm-12">
+              <div id="slider"></div>
+            </div>
+          </div>
+          <div class="price-slider">
+            <h4 class="great">Duration</h4>
+            <span>Minimum 1 day is required</span>
+            <div class="col-sm-12">
+              <div id="slider2"></div>
+            </div>
+          </div>
+
+          <div class="price-form">
+
+            <div class="form-group">
+              <label for="amount" class="col-sm-6 control-label">Amount (GHS): </label>
+              <span class="help-text">Please choose your amount</span>
+              <div class="col-sm-6">
+                <input type="hidden" id="amount" class="form-control">
+                <p class="price lead" id="amount-label"></p>
+                <span class="price">.00</span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="duration" class="col-sm-6 control-label">Duration: </label>
+              <span class="help-text">Choose your commitment</span>
+              <div class="col-sm-6">
+                <input type="hidden" id="duration" class="form-control">
+                <p class="price lead" id="duration-label"></p>
+                <span class="price">days</span>
+              </div>
+            </div>
+            <hr class="style">
+            <div class="form-group total">
+              <label for="total" class="col-sm-6 control-label"><strong>Total: </strong></label>
+              <span class="help-text">(Amount * Days)</span>
+              <div class="col-sm-6">
+                <input type="hidden" id="total" class="form-control">
+                <p class="price lead" id="total-label"></p>
+                <span class="price">.00</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="form-group">
+            <div class="col-sm-12">
+              <a href="#"><button type="submit" class="btn btn-primary btn-lg btn-block">Proceed <span class="glyphicon glyphicon-chevron-right pull-right" style="padding-right: 10px;"></span></button></a>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-12">
+              <img src="http://amirolahmad.github.io/bootstrap-pricing-slider/images/payment.png" class="img-responsive payment" />
+            </div>
+          </div>
+
+        </form>
+
+        <p class="text-center" style="padding-top:10px;font-size:12px;color:#2c3e50;font-style:italic;">Created by <a href="https://twitter.com/AmirolAhmad" target="_blank">AmirolAhmad</a></p>
+
+      </div>
+
+    </div>
+
+    
+  </body>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!--reference separate .js file to write jQuery code -->
+    <script type="text/javascript" src="assets/js/pay.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="assets/plugins/animate-css/animate.min.css">
+</html>

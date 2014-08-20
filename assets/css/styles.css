@@ -88,8 +88,8 @@ a.btn .fa {
 }
 a.btn-cta-primary,
 .btn-cta-primary {
-  background: rgb(95, 159, 228);
-  border: 2px solid rgb(95, 159, 228);
+  background: rgb(228, 95, 175);
+  border: 2px solid rgb(228, 95, 175);
   color: rgb(95, 159, 228);
   text-transform: uppercase;
   margin-top: 10px;
@@ -141,11 +141,33 @@ blockquote {
   color: #2e5f28;
 }
 
-/*Mine css*/
+/*My css*/
+.action{
+  padding-right:8%;
+  padding-bottom: 3%;
+  color: rgb(228, 95, 175);
+}
+
+.intro{
+  padding-top: 1%;
+  font-size: 25px;
+  color: rgb(228, 95, 175);
+}
+.welcome{
+   font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  color: rgb(228, 95, 175);
+  display:none;
+  white-space: pre-wrap;      /* CSS3 */   
+  white-space: -moz-pre-wrap; /* Firefox */    
+  white-space: -pre-wrap;     /* Opera <7 */   
+  white-space: -o-pre-wrap;   /* Opera 7 */    
+  word-wrap: break-word;
+}
 #number1{
   font-family: 'Montserrat', sans-serif;
   font-size: 70px;
-  color:white;
+  color: white;
 }
 #number2{
   font-family: 'Montserrat', sans-serif;
@@ -158,14 +180,13 @@ blockquote {
   color:white;
 }
 .death{
-  font-size: 26px;
+  font-size: 28px;
   color: white;
+  padding-bottom: 50px;
 }
 .disease{
-  margin-top: 25px;
   font-size: 31px;
   color: white;
-  z-index: 1;
   font-family: 'Pacifico', cursive;
   font-family: 'Dancing Script', cursive;
   font-family: 'Lobster', cursive;
@@ -174,28 +195,22 @@ blockquote {
 .stats1 {
   background-color: rgba(48, 114, 40, 0.83);
   text-align: center;
-  width: 310px;
-  height: 220px;
   margin-top: 50px;
-  margin-bottom: 10px;
+  padding-bottom: 38px;
   border: none;
 }
 .stats2 {
   background-color: rgba(40, 61, 114, 0.89);
   text-align: center;
-  width: 310px;
-  height: 220px;
   margin-top: 50px;
-  margin-bottom: 80px;
+  padding-bottom: 38px;
   border: none;
 }
 .stats3 {
   background-color: rgba(116, 82, 12, 0.83);
-  text-align: center;
-  width: 310px;
-  height: 220px;
+ text-align: center;
   margin-top: 50px;
-  margin-bottom: 80px;
+  padding-bottom: 38px;
   border: none;
 }
 
@@ -337,7 +352,7 @@ blockquote {
 /* ======= Header ======= */
 .header {
   padding: 1px 0;
-  background: rgb(95, 159, 228);
+  background: rgb(228, 95, 175);
   z-index: 888;
   -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
@@ -356,11 +371,20 @@ blockquote {
 }
 
 .logo {
-  padding-top: 80px; 
+  color: #6dbd63;
+  padding-left: 0%;
+  padding-top: 2%;
+}
+
+.att{
+  background-color: rgb(228, 95, 175);
+}
+.donate {
+  padding-top: 1%;
+  padding-left: 13%; 
   color: #6dbd63;
 
 }
-
 .try{
   background-color: red;
   font-size: 2px;
@@ -375,7 +399,7 @@ blockquote {
   margin-right: 0;
 }
 button {
-  background: rgb(95, 159, 228);
+  background: rgb(228, 95, 175);
   color: #fff !important;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -397,7 +421,7 @@ button {
    white-space: -o-pre-wrap;   /* Opera 7 */    
    word-wrap: break-word;
    border-radius: 0px;
-   width:205px;
+   /*width:205px;*/
 }
 
 /* ======= Footer ======= */
